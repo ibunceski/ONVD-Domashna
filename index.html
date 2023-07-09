@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <span class="aboutLogo logo">About.</span>
+
+  <nav class="meni">
+    <a href="#" style="--i:1">About</a>
+    <a href="#skill"style="--i:2">Skills</a>
+    <a href="#education"style="--i:3">Education</a>
+    <a href="#contact"style="--i:4">Contact</a>
+  </nav>
+</header>
+
+<section class="about">
+  <div class="aboutContent">
+      <h1 class="aboutH1">Hi, I'm Ilija</h1>
+      <h3 class="aboutH3">Student</h3>
+      <p class="aboutP">I am currently studying Software Engineering and Information
+        Systems at the Faculty of Computer Science & Engineering in Skopje.
+        I am a student with a passion for programming and I love to work on projects
+        on my own and learn new things. This is my website.</p>
+    <a href="#contact" class="aboutButton button">Contact Me</a>
+  </div>
+    <div class="aboutIMG">
+      <div class="krug">
+        <span></span>
+        <span></span>
+        <div class="slika">
+          <img src="images/About%20image.png">
+        </div>
+      </div>
+    </div>
+</section>
+<section class="skills" id="skill">
+  <h2 class="skillsLogo logo">Skills.</h2>
+  <br>
+  <div class="skillsContainer bd-grid"></div>
+    <div class="data">
+      <div class="skillsIme">
+        <i class='bx bxl-html5 skillsIcon'></i>
+        <span class="skillIme">HTML</span>
+      </div>
+      <div>
+        <span class="skillsProcent">75%</span>
+      </div>
+      <div class="skillsBar skillsHTML"></div>
+    </div>
+  <div class="data">
+    <div class="skillsIme">
+      <i class='bx bxl-css3 skillsIcon' ></i>
+      <span class="skillIme">CSS</span>
+    </div>
+    <div>
+      <span class="skillsProcent">70%</span>
+    </div>
+    <div class="skillsBar skillsCSS"></div>
+  </div>
+  <div class="data">
+    <div class="skillsIme">
+      <i class='bx bxl-javascript skillsIcon' ></i>
+      <span class="skillIme">JavaScript</span>
+    </div>
+    <div>
+      <span class="skillsProcent">40%</span>
+    </div>
+    <div class="skillsBar skillsJS"></div>
+  </div>
+  <div class="data">
+    <div class="skillsIme">
+      <i class='bx bxl-c-plus-plus skillsIcon' ></i>
+      <span class="skillIme">C/C++</span>
+    </div>
+    <div>
+      <span class="skillsProcent">70%</span>
+    </div>
+    <div class="skillsBar skillsC"></div>
+  </div>
+  </div>
+</section>
+<br><br>
+<section class="education" id="education">
+  <header class="educationLogo logo">Education.</header>
+  <br>
+  <div class="contents">
+    <div class="box">
+      <h4>2009-2018</h4>
+      <h3>OOU „Josip Broz Tito“ in Struga</h3>
+    </div>
+    <div class="box">
+      <h4>2018-2022</h4>
+      <h3>SOU  Gimnazija „Dr. Ibrahim Temo“ in Struga</h3>
+    </div>
+    <div class="box">
+      <h4>2022- </h4>
+        <h3>Faculty of Computer Science & Engineering in Skopje</h3>
+    </div>
+  </div>
+</section>
+<br><br>
+<h1 class="contactLogo logo cCont" id="contact">Contact.</h1>
+<section class="contact">
+      <div class="contactLeft">
+        <p class="mail"><i class='bx bxs-paper-plane' ></i>ibunceski@gmail.com</p>
+        <p class="telephone"><i class='bx bxs-phone'></i>075 000 000</p>
+        <div class="social-icons">
+          <a href="#"></a><i class='bx bxl-facebook-circle'></i>
+          <a href="#"></a><i class='bx bxl-instagram margin' ></i>
+          <a href="#"></a><i class='bx bxl-twitter margin'></i>
+          <a href="#"></a><i class='bx bxl-linkedin margin'></i>
+        </div>
+      </div>
+      <div class="contactRight">
+      <form>
+        <input class="contactText" type="text" name="Name" placeholder="Your Name">
+        <input class="contactMail" type="email" name="email" placeholder="Your Email">
+        <textarea class="contactArea" name="Message" rows="6" placeholder="Your Message"></textarea>
+        <a href="#contact" class="submit btn button">Submit</a>
+        </form>
+      </div>
+</section>
+<footer>
+    <p>Created by Ilija &copy</p>
+</footer>
+</body>
+</html>
